@@ -1,0 +1,266 @@
+body {
+	font-family: 'Montserrat-black 900', sans-serif;
+}
+
+#title {
+	background-color: #ff4c68;
+	color: #fff;
+	position: relative;
+	
+}
+h1
+{
+	font-family: 'Montserrat-black 900', sans-serif;
+	font-size: 3.5rem ;
+	line-height: 1.5;
+	font-weight: 650;
+	padding-bottom: 30px;
+}
+.container-fluid {
+	padding: 80px 15%;
+}
+.navbar-brand {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+.navbar {
+	padding: 0 0 4rem;
+}
+.nav-item {
+	padding: 0 18px;
+	font-size: 1.3rem;
+}
+
+
+
+/*   proerty*/
+.property {
+	padding-top: 30px;
+	padding-bottom: 0px;
+	background-color: #fff;
+	
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.3rem;
+	font-weight: bold;
+	position: relative;
+	bottom: 200px;
+}
+h3 {
+	font-family: 'Montserrat-black 900', sans-serif;
+	font-size: 2rem;
+	font-weight: 600;
+
+}
+p {
+	color: grey;
+	font-size: 1rem;
+}
+.title-img {
+	width: 60%;
+	transform: rotate(25deg);
+	position: relative;
+	left: 100px;
+	
+}
+.btn {
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-right: 20px;
+	margin-bottom: 50px;
+
+}
+.fas {
+	color: #ef8172;
+	margin-bottom: 1.5rem;
+	
+}
+.fas:hover {
+  color: #ff4c68;
+}
+.feacher {
+	padding: 5% 2%;
+}
+
+
+
+
+
+
+/*  testimonials-section*/
+
+#testimonials {
+	background-color:#ef8172 ;
+	padding: 7% 0%;
+	text-align: center;
+	color: #fff;
+	position: relative;
+	bottom: 200px;
+
+}
+.testi-img {
+	border-radius: 100%;
+	height: 150px;
+}
+
+h2 {
+  font-family: 'Montserrat-black 900', sans-serif;
+	font-size: 2rem ;
+	line-height: 1.5;
+	font-weight: 600;
+	padding-bottom: 20px;
+ 
+
+}
+.carousel-item {
+	padding: 0px 0%;
+}
+
+/*press-secction*/
+#press {
+background-color:#ef8172 ;
+text-align: center;
+position: relative;
+bottom: 200px;
+
+
+}
+.press-img {
+	height: 50px;
+	margin: 20px 20px 50px;
+}
+
+
+/*pricing*/
+
+#pricing {
+	text-align: center;
+	background-color: #fff;
+	padding: 6% 0;
+	font-size: 1.3rem;
+	position: relative;
+	bottom: 200px;
+}
+.price-col {
+	padding-bottom: 40px;
+
+}
+.container {
+	padding-top: 50px;
+}
+.card-heading {
+  border: 1px solid rgba(0,0,0,.125);
+  background-color: rgba(0,0,0,.03);
+  padding: 10px;
+  border-radius: 5%;
+}
+.card-body {
+ border: 1px solid rgba(0,0,0,.125);
+ border-radius: 5%;
+}
+
+#cta {
+	background-color: #ff4c68;
+	color: #fff;
+	position: relative;
+	bottom: 200px;
+	text-align: center;
+	padding: 8% 15% 5%;
+}
+
+
+#footer {
+	text-align: center;
+	background-color: #fff;
+	position: relative;
+	bottom: 100px;
+
+}
+
+.icon {
+	padding-right: 30px;
+	padding-left: 30px;
+}
+.social {
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*  media queries*/
+ @media (max-width :1200px) 
+ {  
+ .title-img {
+	
+	transform: rotate(0);
+	position: static;
+	 }
+	
+#title {
+	text-align: center;
+}
+h1 {
+  	font-size: 3rem;
+  	line-height: 1;
+  }
+
+
+
+ }
+
+
+ @media ( max-width :1000px) 
+ {
+  h1 {
+  	font-size: 2.5rem;
+  	line-height: 1;
+  }
+  .property
+  {  position: static;
+
+  }
+  #pricing {
+  	position: static;
+  }
+  #press {
+  	position: static;
+  }
+  #testimonials {
+  	position: static;
+  }
+  #cta {
+  	position: static;
+  }
+  #footer {
+  	position: static;
+  	padding: 80px 0;
+  }
+
+ }
